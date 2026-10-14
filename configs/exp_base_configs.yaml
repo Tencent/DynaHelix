@@ -1,0 +1,36 @@
+7r58:
+  input_json_f: ./example/7r58.json
+  seeds: [101]
+  binding_type: abag
+  iface_version: manual
+8ekz:
+  input_json_f: ./example/8ekz.json
+  seeds: [101]
+  binding_type: protein-dna
+  iface_version: auto
+7yf2:
+  input_json_f: ./example/7yf2.json
+  seeds: [101]
+  binding_type: protein-protein
+  iface_version: auto
+casp:
+  input_json_f: ./benchmark/casp/casp.json
+  seeds: [101,102,103,104,105]
+  binding_type: abag
+  iface_version: auto
+fb_AA:
+  input_json_f: ./benchmark/fb_AA/fb_AA.json
+  seeds: [101,102,103,104,105]
+  binding_type: abag
+  iface_version: manual
+fb_dsDNA:
+  input_json_f: ./benchmark/fb_dsDNA/fb_dsDNA.json
+  seeds: [101,102,103,104,105]
+  binding_type: protein-dna
+  iface_version: auto
+fb_PP:
+  input_json_f: ./benchmark/fb_PP/fb_PP.json
+  seeds: [101,102,103,104,105]
+  binding_type: protein-protein
+  iface_version: auto
+

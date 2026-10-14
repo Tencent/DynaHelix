@@ -1,0 +1,25 @@
+[
+    {
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "HMAAGGRKENHQWYVCNREKLCESLQAVFVQSYLDQGTQIFLNNSIEKSGWAAIQAYHSAVSSAFSLAMSRTSINGLLGRGSMFVFSPDQFQRLLKINPDWKTHRLLDLGAGDGEVTKIMSPHFEEIYATELSETMIWQLQKKKYRVLGINEWQNTGFQYDVISCLNLLDRCDQPLTLLKDIRSVLEPTRGRVILALVLPFHPYVENVGGKWEKPSEILEIKGQNWEEQVNSLPEVFRKAGFVIEAFTRLPYLCEGDMYNDYYVLDDAVFVLKPV",
+                    "count": 2
+                }
+            },
+            {
+                "proteinChain": {
+                    "sequence": "GHQGHSHGHQGGY",
+                    "count": 2
+                }
+            },
+            {
+                "ligand": {
+                    "ligand": "CCD_SAH",
+                    "count": 2
+                }
+            }
+        ],
+        "name": "7yf2"
+    }
+]

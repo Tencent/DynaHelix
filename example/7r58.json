@@ -1,0 +1,65 @@
+[
+    {
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "HHHHHHSSGVDLGTENLYFQSQSGPLPKPSLQALPSSLVPLEKPVTLRCQGPPGVDLYRLEKLSSSRYQDQAVLFIPAMKRSLAGRYRCSYQNGSLWSLPSDQLELVATGVFAKPSLSAQPGPAVSSGGDVTLQCQTRYGFDQFALYKEGDPAPYKNPERWYRASFPIITVTAAHSGTYRCYSFSSRDPYLWSAPSDPLELVVT",
+                    "count": 1,
+                    "msa": {
+                        "precomputed_msa_dir": "./example/msa/7r58/msa_resmsa_seq_0/1",
+                        "pairing_db": "uniref100"
+                    },
+                    "description": "7r58_1|chain a|platelet glycoprotein vi|homo sapiens (9606)",
+                    "isbinder": 0,
+                    "istarget": 1
+                }
+            },
+            {
+                "proteinChain": {
+                    "sequence": "QVQLVQSGAEVKKPGASVKVSCKASGYTFTSYNMHWVRQAPGQGLEWMGGIYPGNGDTSYNQKFQGRVTMTRDTSTSTVYMELSSLRSEDTAVYYCARGTVVGDWYFDVWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                    "count": 1,
+                    "msa": {
+                        "precomputed_msa_dir": "./example/msa/7r58/msa_resmsa_seq_0/2",
+                        "pairing_db": "uniref100"
+                    },
+                    "description": "7r58_2|chain b[auth h]|fab heavy chain|mus musculus (10090)",
+                    "isbinder": 1,
+                    "istarget": 0
+                }
+            },
+            {
+                "proteinChain": {
+                    "sequence": "DIQMTQSPSSLSASVGDRVTITCRSSQSLENSNGNTYLNWYQQKPGKAPKLLIYRVSNRFSGVPSRFSGSGSGTDFTFTISSLQPEDIATYYCLQLTHVPWTFGQGTKVEITRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                    "count": 1,
+                    "msa": {
+                        "precomputed_msa_dir": "./example/msa/7r58/msa_resmsa_seq_0/0",
+                        "pairing_db": "uniref100"
+                    },
+                    "description": "7r58_3|chain c[auth l]|fab light chain|mus musculus (10090)",
+                    "isbinder": 0,
+                    "istarget": 0
+                }
+            },
+            {
+                "ligand": {
+                    "ligand": "CCD_CL",
+                    "count": 2
+                }
+            },
+            {
+                "ligand": {
+                    "ligand": "CCD_SCN",
+                    "count": 1
+                }
+            }
+        ],
+        "iface_chain_pairs": [
+            "A,B",
+            "A,C"
+        ],
+        "skip_pairs":[
+            [[2,1],[3,1]]
+        ],
+        "name": "7r58"
+    }
+]

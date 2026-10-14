@@ -1,0 +1,35 @@
+[
+    {
+        "sequences": [
+            {
+                "dnaSequence": {
+                    "sequence": "AATAAGGAGAAGTAGG",
+                    "count": 1
+                }
+            },
+            {
+                "dnaSequence": {
+                    "sequence": "TCCTACTTCTCCTTAT",
+                    "count": 1
+                }
+            },
+            {
+                "proteinChain": {
+                    "sequence": "GSKKKIRLYQFLLDLLRSGDMKDSIWWVDKDKGTFQFSSKHKEALAHRWGIQKGNRKKMTYQKMARALRNYGKTGEVKKVKKKLTYQFSGEVLGRGGLAERRHPPH",
+                    "count": 1,
+                    "msa": {
+                        "precomputed_msa_dir": "/mnt/ai4g_share/neogaryzhou/dyna_open_source/example/msa/8ekz/msa_resmsa_seq_0/0",
+                        "pairing_db": "uniref100"
+                    }
+                }
+            },
+            {
+                "ligand": {
+                    "ligand": "CCD_NA",
+                    "count": 1
+                }
+            }
+        ],
+        "name": "8ekz"
+    }
+]

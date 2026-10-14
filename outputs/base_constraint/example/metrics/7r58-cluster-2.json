@@ -1,0 +1,672 @@
+[
+    {
+        "cif_path": "/mnt/ai4g_share/neogaryzhou/DynaHelix_open_source/outputs/base_constraint/example/pred/7r58-cluster-2/seed_101/predictions/7r58-cluster-2_seed_101_sample_0.cif",
+        "results": {
+            "entry_id": "7r58",
+            "ref_to_model_chain_mapping": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "F": "E",
+                "G": "D",
+                "H": "F"
+            },
+            "ref_chain_info": {
+                "A": {
+                    "label_entity_id": "1",
+                    "entity_type": "polypeptide(L)"
+                },
+                "B": {
+                    "label_entity_id": "2",
+                    "entity_type": "polypeptide(L)"
+                },
+                "C": {
+                    "label_entity_id": "3",
+                    "entity_type": "polypeptide(L)"
+                },
+                "F": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "G": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "H": {
+                    "label_entity_id": "6",
+                    "entity_type": "ligand"
+                }
+            },
+            "complex": {
+                "clashes": 37,
+                "lddt": 0.848070779635661
+            },
+            "chain": {
+                "A": {
+                    "lddt": 0.7839389711999866
+                },
+                "B": {
+                    "lddt": 0.9502927040797889
+                },
+                "C": {
+                    "lddt": 0.9534214427306276
+                },
+                "H": {
+                    "lddt": 0.9166666666666666
+                }
+            },
+            "interface": {
+                "A,B": {
+                    "lddt": 0.00011758826469118382,
+                    "dockq": 0.019470594848456053,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.020165062422517,
+                        "LRMSD": 36.46684552695042,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 35,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 30,
+                        "model_total": 30,
+                        "clashes": 0,
+                        "len1": 181,
+                        "len2": 216,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,C": {
+                    "lddt": 0.0,
+                    "dockq": 0.01778910762030138,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.715643692348223,
+                        "LRMSD": 38.281604815696966,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 24,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 21,
+                        "model_total": 21,
+                        "clashes": 0,
+                        "len1": 181,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,H": {
+                    "lddt": 0.08850574712643679
+                },
+                "B,C": {
+                    "lddt": 0.896178957508295,
+                    "dockq": 0.81179582046374,
+                    "dockq_info": {
+                        "F1": 0.8663594470046083,
+                        "iRMSD": 1.1750148457789804,
+                        "LRMSD": 2.0447894583860906,
+                        "fnat": 0.8703703703703703,
+                        "nat_correct": 94,
+                        "nat_total": 108,
+                        "fnonnat": 0.13761467889908258,
+                        "nonnat_count": 15,
+                        "model_total": 109,
+                        "clashes": 1,
+                        "len1": 216,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                }
+            },
+            "ori_model_chain_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        }
+    },
+    {
+        "cif_path": "/mnt/ai4g_share/neogaryzhou/DynaHelix_open_source/outputs/base_constraint/example/pred/7r58-cluster-2/seed_101/predictions/7r58-cluster-2_seed_101_sample_2.cif",
+        "results": {
+            "entry_id": "7r58",
+            "ref_to_model_chain_mapping": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "F": "D",
+                "G": "E",
+                "H": "F"
+            },
+            "ref_chain_info": {
+                "A": {
+                    "label_entity_id": "1",
+                    "entity_type": "polypeptide(L)"
+                },
+                "B": {
+                    "label_entity_id": "2",
+                    "entity_type": "polypeptide(L)"
+                },
+                "C": {
+                    "label_entity_id": "3",
+                    "entity_type": "polypeptide(L)"
+                },
+                "F": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "G": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "H": {
+                    "label_entity_id": "6",
+                    "entity_type": "ligand"
+                }
+            },
+            "complex": {
+                "clashes": 15,
+                "lddt": 0.8686943219418949
+            },
+            "chain": {
+                "A": {
+                    "lddt": 0.8514849613002445
+                },
+                "B": {
+                    "lddt": 0.9520082752141076
+                },
+                "C": {
+                    "lddt": 0.9614269695297013
+                },
+                "H": {
+                    "lddt": 0.75
+                }
+            },
+            "interface": {
+                "A,B": {
+                    "lddt": 0.000698180321603904,
+                    "dockq": 0.0235959637431994,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.370275049976357,
+                        "LRMSD": 32.461638670158564,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 35,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 46,
+                        "model_total": 46,
+                        "clashes": 2,
+                        "len1": 181,
+                        "len2": 216,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,C": {
+                    "lddt": 0.0,
+                    "dockq": 0.022445690304248953,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.8904592216945,
+                        "LRMSD": 33.328539487525504,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 24,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 14,
+                        "model_total": 14,
+                        "clashes": 0,
+                        "len1": 181,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,H": {
+                    "lddt": 0.06494252873563218
+                },
+                "B,C": {
+                    "lddt": 0.9052766777266402,
+                    "dockq": 0.8726080687363281,
+                    "dockq_info": {
+                        "F1": 0.8868778280542986,
+                        "iRMSD": 0.8981489697917547,
+                        "LRMSD": 1.379901664780886,
+                        "fnat": 0.9074074074074074,
+                        "nat_correct": 98,
+                        "nat_total": 108,
+                        "fnonnat": 0.13274336283185842,
+                        "nonnat_count": 15,
+                        "model_total": 113,
+                        "clashes": 0,
+                        "len1": 216,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                }
+            },
+            "ori_model_chain_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        }
+    },
+    {
+        "cif_path": "/mnt/ai4g_share/neogaryzhou/DynaHelix_open_source/outputs/base_constraint/example/pred/7r58-cluster-2/seed_101/predictions/7r58-cluster-2_seed_101_sample_1.cif",
+        "results": {
+            "entry_id": "7r58",
+            "ref_to_model_chain_mapping": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "F": "E",
+                "G": "D",
+                "H": "F"
+            },
+            "ref_chain_info": {
+                "A": {
+                    "label_entity_id": "1",
+                    "entity_type": "polypeptide(L)"
+                },
+                "B": {
+                    "label_entity_id": "2",
+                    "entity_type": "polypeptide(L)"
+                },
+                "C": {
+                    "label_entity_id": "3",
+                    "entity_type": "polypeptide(L)"
+                },
+                "F": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "G": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "H": {
+                    "label_entity_id": "6",
+                    "entity_type": "ligand"
+                }
+            },
+            "complex": {
+                "clashes": 14,
+                "lddt": 0.8628560149184731
+            },
+            "chain": {
+                "A": {
+                    "lddt": 0.8337475733866698
+                },
+                "B": {
+                    "lddt": 0.9470024934051241
+                },
+                "C": {
+                    "lddt": 0.9616257190566948
+                },
+                "H": {
+                    "lddt": 1.0
+                }
+            },
+            "interface": {
+                "A,B": {
+                    "lddt": 0.00011023899814798484,
+                    "dockq": 0.020259988603076155,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.069228383182462,
+                        "LRMSD": 35.59923616461656,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 35,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 39,
+                        "model_total": 39,
+                        "clashes": 3,
+                        "len1": 181,
+                        "len2": 216,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,C": {
+                    "lddt": 0.0,
+                    "dockq": 0.02013020707157822,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 17.751885061977966,
+                        "LRMSD": 35.82249674866356,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 24,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 19,
+                        "model_total": 19,
+                        "clashes": 0,
+                        "len1": 181,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,H": {
+                    "lddt": 0.21436781609195402
+                },
+                "B,C": {
+                    "lddt": 0.9046490809843052,
+                    "dockq": 0.8595073800327798,
+                    "dockq_info": {
+                        "F1": 0.8918918918918919,
+                        "iRMSD": 1.0008183635777104,
+                        "LRMSD": 1.4974953025914493,
+                        "fnat": 0.9166666666666666,
+                        "nat_correct": 99,
+                        "nat_total": 108,
+                        "fnonnat": 0.13157894736842105,
+                        "nonnat_count": 15,
+                        "model_total": 114,
+                        "clashes": 1,
+                        "len1": 216,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                }
+            },
+            "ori_model_chain_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        }
+    },
+    {
+        "cif_path": "/mnt/ai4g_share/neogaryzhou/DynaHelix_open_source/outputs/base_constraint/example/pred/7r58-cluster-2/seed_101/predictions/7r58-cluster-2_seed_101_sample_4.cif",
+        "results": {
+            "entry_id": "7r58",
+            "ref_to_model_chain_mapping": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "F": "D",
+                "G": "E",
+                "H": "F"
+            },
+            "ref_chain_info": {
+                "A": {
+                    "label_entity_id": "1",
+                    "entity_type": "polypeptide(L)"
+                },
+                "B": {
+                    "label_entity_id": "2",
+                    "entity_type": "polypeptide(L)"
+                },
+                "C": {
+                    "label_entity_id": "3",
+                    "entity_type": "polypeptide(L)"
+                },
+                "F": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "G": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "H": {
+                    "label_entity_id": "6",
+                    "entity_type": "ligand"
+                }
+            },
+            "complex": {
+                "clashes": 20,
+                "lddt": 0.8601460680577415
+            },
+            "chain": {
+                "A": {
+                    "lddt": 0.8389831754809106
+                },
+                "B": {
+                    "lddt": 0.9396460448812922
+                },
+                "C": {
+                    "lddt": 0.9557682493725069
+                },
+                "H": {
+                    "lddt": 1.0
+                }
+            },
+            "interface": {
+                "A,B": {
+                    "lddt": 2.2047799629596967e-05,
+                    "dockq": 0.024613824404561873,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.561089356121787,
+                        "LRMSD": 31.6300158489168,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 35,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 18,
+                        "model_total": 18,
+                        "clashes": 2,
+                        "len1": 181,
+                        "len2": 216,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,C": {
+                    "lddt": 0.0,
+                    "dockq": 0.024277548356959982,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 17.443087006699805,
+                        "LRMSD": 32.10823406970716,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 24,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 8,
+                        "model_total": 8,
+                        "clashes": 0,
+                        "len1": 181,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,H": {
+                    "lddt": 0.08333333333333333
+                },
+                "B,C": {
+                    "lddt": 0.9036493047784924,
+                    "dockq": 0.7639566659545852,
+                    "dockq_info": {
+                        "F1": 0.8771929824561403,
+                        "iRMSD": 1.5937699770891678,
+                        "LRMSD": 2.8923809716890054,
+                        "fnat": 0.9259259259259259,
+                        "nat_correct": 100,
+                        "nat_total": 108,
+                        "fnonnat": 0.16666666666666666,
+                        "nonnat_count": 20,
+                        "model_total": 120,
+                        "clashes": 0,
+                        "len1": 216,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                }
+            },
+            "ori_model_chain_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        }
+    },
+    {
+        "cif_path": "/mnt/ai4g_share/neogaryzhou/DynaHelix_open_source/outputs/base_constraint/example/pred/7r58-cluster-2/seed_101/predictions/7r58-cluster-2_seed_101_sample_3.cif",
+        "results": {
+            "entry_id": "7r58",
+            "ref_to_model_chain_mapping": {
+                "A": "A",
+                "B": "B",
+                "C": "C",
+                "F": "D",
+                "G": "E",
+                "H": "F"
+            },
+            "ref_chain_info": {
+                "A": {
+                    "label_entity_id": "1",
+                    "entity_type": "polypeptide(L)"
+                },
+                "B": {
+                    "label_entity_id": "2",
+                    "entity_type": "polypeptide(L)"
+                },
+                "C": {
+                    "label_entity_id": "3",
+                    "entity_type": "polypeptide(L)"
+                },
+                "F": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "G": {
+                    "label_entity_id": "5",
+                    "entity_type": "ligand"
+                },
+                "H": {
+                    "label_entity_id": "6",
+                    "entity_type": "ligand"
+                }
+            },
+            "complex": {
+                "clashes": 11,
+                "lddt": 0.8655989465646475
+            },
+            "chain": {
+                "A": {
+                    "lddt": 0.8470897447749027
+                },
+                "B": {
+                    "lddt": 0.9474469699707296
+                },
+                "C": {
+                    "lddt": 0.9585082155590503
+                },
+                "H": {
+                    "lddt": 0.8333333333333334
+                }
+            },
+            "interface": {
+                "A,B": {
+                    "lddt": 2.2047799629596967e-05,
+                    "dockq": 0.018322856222479887,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.743827244556087,
+                        "LRMSD": 37.60610793849541,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 35,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 28,
+                        "model_total": 28,
+                        "clashes": 1,
+                        "len1": 181,
+                        "len2": 216,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,C": {
+                    "lddt": 0.0,
+                    "dockq": 0.01749631167990209,
+                    "dockq_info": {
+                        "F1": 0.0,
+                        "iRMSD": 18.640889254080783,
+                        "LRMSD": 38.68476564342532,
+                        "fnat": 0,
+                        "nat_correct": 0,
+                        "nat_total": 24,
+                        "fnonnat": 1.0,
+                        "nonnat_count": 21,
+                        "model_total": 21,
+                        "clashes": 0,
+                        "len1": 181,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                },
+                "A,H": {
+                    "lddt": 0.3385057471264368
+                },
+                "B,C": {
+                    "lddt": 0.9064880853920777,
+                    "dockq": 0.8857060445901679,
+                    "dockq_info": {
+                        "F1": 0.9107142857142857,
+                        "iRMSD": 0.8842955895779077,
+                        "LRMSD": 1.479768776764096,
+                        "fnat": 0.9444444444444444,
+                        "nat_correct": 102,
+                        "nat_total": 108,
+                        "fnonnat": 0.1206896551724138,
+                        "nonnat_count": 14,
+                        "model_total": 116,
+                        "clashes": 1,
+                        "len1": 216,
+                        "len2": 218,
+                        "class1": "ligand",
+                        "class2": "receptor",
+                        "is_het": false
+                    }
+                }
+            },
+            "ori_model_chain_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ]
+        }
+    }
+]
